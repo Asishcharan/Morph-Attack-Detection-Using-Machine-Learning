@@ -1,0 +1,11 @@
+video_path,label,source_video_1,source_video_2,morphing_alpha,video_resolution,frame_rate,dataset_split
+original_videos/original_001.mp4,0,-,-,-,1920x1080,30,train
+original_videos/original_002.mp4,0,-,-,-,1920x1080,30,train
+original_videos/original_003.mp4,0,-,-,-,1920x1080,30,train
+original_videos/original_004.mp4,0,-,-,-,1920x1080,30,validation
+original_videos/original_005.mp4,0,-,-,-,1920x1080,30,validation
+morphed_videos/morphed_001.mp4,1,original_videos/original_001.mp4,original_videos/original_002.mp4,0.5,1920x1080,30,validation
+morphed_videos/morphed_002.mp4,1,original_videos/original_002.mp4,original_videos/original_003.mp4,0.5,1920x1080,30,validation
+morphed_videos/morphed_003.mp4,1,original_videos/original_003.mp4,original_videos/original_004.mp4,0.5,1920x1080,30,train
+morphed_videos/morphed_004.mp4,1,original_videos/original_004.mp4,original_videos/original_005.mp4,0.5,1920x1080,30,train
+morphed_videos/morphed_005.mp4,1,original_videos/original_005.mp4,original_videos/original_001.mp4,0.5,1920x1080,30,train
